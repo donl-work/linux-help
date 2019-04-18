@@ -1,2 +1,3 @@
 # linux-help
-linux command and shortcouts
+linux command and short cuts
+
