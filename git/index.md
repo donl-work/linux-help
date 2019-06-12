@@ -28,3 +28,19 @@ git checkout master
 git merge --squash bugfix
 git commit
 ```
+
+
+Rebase
+
+```
+git checkout feature
+## rebase develop to your branch
+git rebase develop
+
+... add stuff and commit git add . && git commit -m "f2 2"
+
+git checkout develop
+git rebase feature
+
+
+```
