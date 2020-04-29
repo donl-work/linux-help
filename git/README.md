@@ -44,3 +44,15 @@ git rebase feature
 
 
 ```
+
+
+# How do I force git to use LF instead of CR+LF under windows?
+
+```
+git config --global core.autocrlf false
+
+```
+
+```
+git config --global core.eol lf
+```
